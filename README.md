@@ -1,2 +1,2 @@
 # codility_Java
-codility lessons
+This project is JAVA programs files for codility lessons.
