@@ -50,7 +50,7 @@ class OddOccurrencesInArray {
 		}
 
 		// last item 
-		return A[A.length];
+		return A[A.length-1];
 
     }
 }
