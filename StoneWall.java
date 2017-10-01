@@ -1,6 +1,17 @@
 import java.util.Stack;
-
+/**
+* stone wall
+*
+* @author zenmony
+* @version 1.0
+*
+*/
 class  StoneWall {
+	/**
+	 * stone wall
+	 * @param  zero-indexed array H of N positive integers
+	 * @return the minimum number of blocks needed to build it.
+	 */
     public int solution(int[] H) {
 
 	// using Stack (LIFO)
@@ -25,7 +36,7 @@ class  StoneWall {
 			cnt++;
 		}
 	}
-	
+
 	return cnt;
 	}
 }
