@@ -13,7 +13,7 @@ class PermCheck {
 	 * @return 1:permutation  0:not permutation check
 	 */
     public int solution(int[] A) {
-        // validation check
+        	// validation check
 		if (A == null || A.length ==0 )
 			return 0;
 
