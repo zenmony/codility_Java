@@ -1,11 +1,17 @@
-// you can also use imports, for example:
-// import java.util.*;
-
-// you can write to stdout for debugging purposes, e.g.
-// System.out.println("this is a debug message");
 import java.util.Arrays;
-
+/**
+* permutation check
+*
+* @author zenmony
+* @version 1.0
+*
+*/
 class PermCheck {
+	/**
+	 * permutation check
+	 * @param A non-empty zero-indexed array A consisting of N integers
+	 * @return 1:permutation  0:not permutation check
+	 */
     public int solution(int[] A) {
         // validation check
 		if (A == null || A.length ==0 )
