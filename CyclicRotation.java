@@ -11,9 +11,7 @@ class CyclicRotation {
  * @return B which is shifted to the right by K indexes
  */
     public int[] solution(int[] A, int K) {
-        // write your code in Java SE 8
-        
-        // validation check
+       		 // validation check
 		if (A == null || A.length ==0 )
 			return A;
 
