@@ -12,9 +12,7 @@ class OddOccurrencesInArray {
  * @return unpaired value
  */
     public int solution(int[] A) {
-        // write your code in Java SE 8
-        
-        // validation check
+	        // validation check
 		if (A == null || A.length ==0 )
 			return 0;
 
